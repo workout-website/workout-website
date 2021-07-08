@@ -110,18 +110,6 @@ body, html {
   font-size:20px
 }
 
-.sub-menu {
-  left: 0px;
-  position: absolute;
-  width: 100%;
-  z-index: 100;
-  display: none;
-  -webkit-box-pack: center;
-  justify-content: center;
-  height: 150px;
-  background: #313443;
-  border-bottom: 1px solid #7b7f92;
-}
 
 
 
