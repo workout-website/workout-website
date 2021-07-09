@@ -1,14 +1,18 @@
 
-function wourkoutvid(){
-  window.open("file:///C:/Users/hamou/OneDrive/Desktop/workout-website/workout%20videos/workoutvedios.html")
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
 }
 
 
-function motivational(){
-  window.open("file:///C:/Users/hamou/OneDrive/Desktop/workout-website/motivational%20videos/motivationalvideos.html")
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
 }
-
-function meditation(){
-  window.open("file:///C:/Users/hamou/OneDrive/Desktop/workout-website/meditation%20videos/medetationvideos.html")
-}
-
