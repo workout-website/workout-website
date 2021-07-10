@@ -1,10 +1,12 @@
 body,
 html {
     height: 100%;
-    background-image: url(https://th.bing.com/th/id/R.f27dd3b85188a0e950159f7de5b1a30e?rik=sKqNdLzOI1uAOg&pid=ImgRaw);
+    background-image: url(https://thumbs.dreamstime.com/b/fitness-background-bottle-water-apple-dumbbells-nuts-tape-measure-pink-table%D1%8E-table-161269289.jpg);
     height: 100%;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:4000px ,  cover;
+   
 }
 
 div {
@@ -83,7 +85,7 @@ li a:hover {
 }
 
 #p1 {
-    color: white;
+    color: blue;
     font-size: 20px
 }
 
@@ -181,4 +183,26 @@ h5 {
 
 #p2 {
     margin-top: 20px;
+}
+
+
+#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13,#p14,#p15,#p16,#p17,#p18,#p19,#p20{
+    
+    font-variant: small-caps;
+    font-size: large;
+}
+
+#p4,#p5,#p6,#p7,#p8,#p9,#p10,#p11,#p12,#p13,#p14,#p15{
+    margin-top: 20px;
+}
+
+
+#p16,#p17,#p18,#p19,#p20{
+    margin-top: 20px;
+}
+
+
+#p3{
+ margin-top: 20px;
+ font-size: large;
 }
