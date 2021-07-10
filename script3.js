@@ -52,6 +52,29 @@ var fourth = {
 }
 Recipes.push(fourth)
 
+var fifth = {
+    name: "Weight-Loss Recipes",
+    intro: "Healthy weight-Loss means different things for different people. That's why we've collected recipes whether you're looking for low-carb, low-fat or low-calorie. Find recipes that suit your weight-loss goals, right here.",
+    recipes1name: "Chicken Burger with Sun-Dried Tomato Aioli :",
+    recipes1: "We've gone ahead and helped you out by reinventing the chicken burger, using a lean grind of meat and a hugely flavorful—but surprisingly low-calorie—spiked mayo to deliver on the promise of a truly healthy burger you can happily indulge in.",
+    recipes2name: "Oatmeal Pancakes With Cinnamon Apples :",
+    recipes2: "Smoothies are an easy way to start the day and this peanut banana breakfast smoothie is no different. Kids and adults alike will cheer for the magical flavor combination of peanut butter and bananas. Just a little bit of cinnamon adds an unexpected burst of spice that brightens the whole drink.Banish the Bisquick! Oats and wheat flour give these pancakes a fiber and protein boost, helping stabilize your blood sugar levels as your body absorbs the rush of carbs that comes with a stack of flapjacks.",
+    recipes3name: "Spicy Grilled Calamari Salad :",
+    recipes3: "This salad has all the trappings of the much-adored appetizer—crunch from the peanuts, tomatoes, a bit of spice—but so much more. We don't want to promise that you'll never go back to the fried stuff after this, but it's a distinct possibility..Overnight oats are the perfect breakfast if you want a wholesome, homemade morning meal, but you don't want to add anything extra to your morning routine.ngredients are combined in a container and left to chill overnight in the refrigerator. The oats become soft and creamy by morning, just like slow-cooked oatmeal. Chia seeds, popular for their omega-3s and other health benefits, add a light nutty flavor. Pair that with a little maple syrup, cinnamon, and vanilla to add some sweetness and you are good to go!"
+}
+Recipes.push(fifth)
+
+var sixth = {
+    name: "Weight-gain Recipes",
+    intro: "Gaining lean body mass isn’t just about eating—it’s about eating the right things. It’s best to focus on foods like fruits, vegetables, whole grains, healthy fats, lean meats, and low-fat dairy in your regular diet. These foods provide the variety of carbohydrates, protein, fat and antioxidants needed to properly recover and build muscle mass.",
+    recipes1name: "Chicken Burger with Sun-Dried Tomato Aioli :",
+    recipes1: "We've gone ahead and helped you out by reinventing the chicken burger, using a lean grind of meat and a hugely flavorful—but surprisingly low-calorie—spiked mayo to deliver on the promise of a truly healthy burger you can happily indulge in.",
+    recipes2name: "Oatmeal Pancakes With Cinnamon Apples :",
+    recipes2: "Smoothies are an easy way to start the day and this peanut banana breakfast smoothie is no different. Kids and adults alike will cheer for the magical flavor combination of peanut butter and bananas. Just a little bit of cinnamon adds an unexpected burst of spice that brightens the whole drink.Banish the Bisquick! Oats and wheat flour give these pancakes a fiber and protein boost, helping stabilize your blood sugar levels as your body absorbs the rush of carbs that comes with a stack of flapjacks.",
+    recipes3name: "Spicy Grilled Calamari Salad :",
+    recipes3: "This salad has all the trappings of the much-adored appetizer—crunch from the peanuts, tomatoes, a bit of spice—but so much more. We don't want to promise that you'll never go back to the fried stuff after this, but it's a distinct possibility..Overnight oats are the perfect breakfast if you want a wholesome, homemade morning meal, but you don't want to add anything extra to your morning routine.ngredients are combined in a container and left to chill overnight in the refrigerator. The oats become soft and creamy by morning, just like slow-cooked oatmeal. Chia seeds, popular for their omega-3s and other health benefits, add a light nutty flavor. Pair that with a little maple syrup, cinnamon, and vanilla to add some sweetness and you are good to go!"
+}
+Recipes.push(sixth)
 
 
 

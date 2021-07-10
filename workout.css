@@ -3,7 +3,7 @@ html {
     height: 100%;
     background-image: url("https://st2.depositphotos.com/9527076/12336/i/450/depositphotos_123360624-stock-photo-fitness-workout-background-dumbbells-on.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    
     background-size: cover;
 }
 
@@ -179,55 +179,8 @@ h5 {
     background-color: transparent;
 }
 
-#p2 {
-    margin-top: 20px;
+#tag {
+    color: black;
 }
 
-#p4,
-#p5,
-#p6,
-#p7,
-#p8,
-#p9,
-#p10,
-#p11,
-#p12,
-#p13,
-#p14,
-#p15,
-#p16,
-#p17,
-#p18,
-#p19,
-#p20 {
-    font-variant: small-caps;
-    font-size: large;
-}
 
-#p4,
-#p5,
-#p6,
-#p7,
-#p8,
-#p9,
-#p10,
-#p11,
-#p12,
-#p13,
-#p14,
-#p15 {
-    margin-top: 20px;
-}
-
-#p16,
-#p17,
-#p18,
-#p19,
-#p20 {
-    margin-top: 20px;
-}
-
-#p3 {
-    margin-top: 20px;
-    font-size: large;
-}

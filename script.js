@@ -67,6 +67,27 @@ var sixth = {
 }
 Workouts.push(sixth)
 
+var seventh = {
+    name: "Cardio workout",
+    anatomy: "People tend to think of cardio in terms of steady state exercise, like jogging,” says Trevor Thieme, C.S.C.S. and Openfit’s senior manager of fitness and nutrition content. “But really, cardio is anything that A) raises your heart and breathing rates, and B) improves the function of your heart, lungs, and circulatory system.Not quite. Just about any physical activity you do can increase your heart rate, from lifting weights to strolling between your desk and the bathroom to rolling out of bed in the morning. For an activity to qualify as a cardio workout, it has to meet both criteria mentioned above.",
+    Exercise1: "Exercise 1 : Jump Rope : Chances are, you haven’t jumped rope since 4th grade recess. If that’s the case, go get yourself a jump rope today! This form of cardio can be done just about anywhere. Turn up your favorite playlist and jump to the beat. Tossing your jump rope in a backpack, suitcase, or purse will help you squeeze in your 150 minutes of exercise per week whenever you have some spare time.",
+    Exercise2: "Exercise 2 :  Cycling :  There are plenty of ways to fit this type of cardio into your day.Swap your car for a bike on your next trip to the grocery store.Switch it up and ditch the treadmill for the stationary bike on your next trip to the gym.Bite the bullet and try that indoor cycling studio you’ ve been eyeing for the past six months,or buy a trainer so you can ride your road bike in your house or garage.",
+    Exercise3: "Exercise 3 :  Jumping Jacks :  If you haven’t done these since high school gym class, you’re missing out! This equipment-free activity can get your heart rate up in no time. Plus, they’re easy to do from anywhere. Start jumping first thing in the morning, when you need a break from your desk, or while you’re waiting for your dinner to finish cooking.",
+    Exercise4: "Exercise 4 :Walking : You may be wondering if walking counts as cardiovascular exercise. Of course! This is a great starting place for people who are new to exercise. Even a 10-minute walk can get you on the road to improved heart health. Experienced exercisers benefit from it, too."
+}
+Workouts.push(seventh)
+
+var eighth = {
+    name: "The abdominal muscles workout",
+    anatomy: "The muscles of the abdomen are made up of the muscles of the anterolateral abdominal wall and the muscles of the posterior abdominal wall. These muscles work together to protect the internal organs (viscera) by covering them completely. They also help to provide postural support, assist in forceful expiration and increase the intra-abdominal pressure in activities such as sneezing, coughing, lifting, urinating, defecating and childbirth.",
+    Exercise1: "Exercise 1 : Abdominal crunch : Lie on your back and place your feet on a wall so that your knees and hips are bent at 90-degree angles. Tighten your abdominal muscles.Raise your head and shoulders off the floor. To avoid straining your neck, cross your arms on your chest rather than locking them behind your head. Hold for three deep breaths.Return to the start position and repeat.",
+    Exercise2: "Exercise 2 :  Bridge : Lie on your back with your knees bent (A). Keep your back in a neutral position, not arched and not pressed into the floor. Avoid tilting your hips. Tighten your abdominal muscles.Raise your hips off the floor until your hips are aligned with your knees and shoulders (B). Hold for three deep breaths.Return to the start position and repeat.",
+    Exercise3: "Exercise 3 :  Segmental rotation :  Segmental rotation is another way to boost core strength:Lie on your back with your knees bent and your back in a neutral position. Tighten your abdominal muscles.Keeping your shoulders on the floor, let your knees fall slowly to the left (A). Go only as far as is comfortable. You should feel a stretch, but not pain. Hold for three deep breaths.Return to the start position. Repeat the exercise to the right (B).",
+    Exercise4: "Exercise 4 : Side plank: The side plank challenges your stability and improves core strength by working the muscles along the side of your body:Lie on your left side, raising yourself onto your left forearm (A). Place your left shoulder directly above your left elbow, keeping your shoulders, hips and knees in alignment. Rest your right arm along the side of your body.Tighten your abdominal muscles. Hold for three deep breaths. Repeat on your right side.For added challenge, balance on your left hand. Raise your hips off the floor and extend your right hand toward the ceiling (B). Hold for three deep breaths. Repeat on your right side."
+}
+Workouts.push(eighth)
+
+
 
 localStorage.setItem('Workouts', JSON.stringify(Workouts));
 
