@@ -1,0 +1,86 @@
+div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+a {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+html {
+    background-image: url(https://cfpen.org/wp-content/uploads/2019/05/Eat_Healthy_Blog_15May19.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-transform: lowercase;
+    color: dimgrey;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 2rem;
+    font-family: inherit;
+    border-radius: 50px;
+    padding: .5rem;
+    width: 500px;
+    outline: none;
+    font-size: 2rem;
+    border: 2px solid rgb(253, 253, 253);
+    color: #0B4268;
+    transition: all .3s ease;
+    text-align: center;
+}
+
+input:focus {
+    border: 2px solid #61DAFB;
+}
+
+h2 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.book-name {
+    flex: 2;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.book-info {
+    border-left: 1px solid #333;
+    padding: 0 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    border-radius: 25px;
+    background: linear-gradient(90deg, #61DAFB 0%, rgb(10, 167, 211) 100%);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    width: 380px;
+    margin: .3rem auto;
+    color: #333
+}
