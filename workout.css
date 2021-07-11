@@ -3,7 +3,7 @@ html {
     height: 100%;
     background-image: url("https://st2.depositphotos.com/9527076/12336/i/450/depositphotos_123360624-stock-photo-fitness-workout-background-dumbbells-on.jpg");
     background-position: center;
-    
+    background-repeat: inherit;
     background-size: cover;
 }
 
@@ -180,7 +180,5 @@ h5 {
 }
 
 #tag {
-    color: black;
+    color: beige;
 }
-
-

@@ -1,5 +1,5 @@
     html body {
-        background-image: url("https://th.bing.com/th/id/OIP.Xw8l23BiFRxXwdUUITvMFAHaEK?pid=ImgDet&rs=1");
+        background-image: url("https://nypost.com/wp-content/uploads/sites/2/2018/09/180912-mutation-humans-running-feature.jpg?quality=90&strip=all&w=618&h=410&crop=1");
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -40,4 +40,8 @@
     
     a {
         float: left;
+    }
+    
+    #p1 {
+        font-weight: bold;
     }
