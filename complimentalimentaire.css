@@ -1,191 +1,185 @@
-#img2{
-margin-left: 600px;
-
+#img2 {
+    margin-left: 600px;
 }
 
-
-
-
-
-
-#img1{
+#img1 {
     size: 20px;
     margin-left: 400px;
-    
 }
 
 body,
-    html {
-        height: 100%;
-        background-image: url("https://media.istockphoto.com/photos/herbal-medicine-pills-and-mortar-over-bright-background-picture-id491395412?k=6&m=491395412&s=612x612&w=0&h=563k1uq4RXiy2TNZEeven9y1_Fu32PkH8MhbhFOOVRU=");
-        background-position: center;
-        
-        background-size:  cover ;
-    }
-    
-    div {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-    
-    a {
-        float: left;
-    }
-    
-    a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        background-color: #111;
-    }
-    
-    .dropbtn {
-        background-color: #3498DB;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-    }
-    
-    .dropbtn:hover,
-    .dropbtn:focus {
-        background-color: #2980B9;
-    }
-    
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-    
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    .dropdown-content a:hover {
-        background-color: #ddd
-    }
-    
-    .show {
-        display: block;
-    }
-    
-    .sub-menu {
-        left: 0px;
-        position: absolute;
-        width: 100%;
-        z-index: 100;
-        display: none;
-        -webkit-box-pack: center;
-        justify-content: center;
-        height: 150px;
-        background: #313443;
-        border-bottom: 1px solid #7b7f92;
-    }
-    
-    body {
-        min-height: 100vh;
-        margin: 0 1rem;
-    }
-    
-    h2 {
-        color: #7c795d;
-        font-family: 'Trocchi', serif;
-        font-size: 45px;
-        font-weight: normal;
-        line-height: 48px;
-        margin: 0;
-    }
-    
-    #topic-summary {
-        background-color: transparent;
-    }
-    
-    p {
-        color: black;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 18px;
-        line-height: 32px;
-        margin: 0 0 24px;
-        border: 1px solid brown;
-    }
-    
-    h1 {
-        color: black;
-        font-family: 'Trocchi', serif;
-        font-size: 45px;
-        font-weight: normal;
-        line-height: 48px;
-        margin: 0;
-    }
-    
-    h2 {
-        color: black;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 32px;
-        margin: 0 0 24px;
-    }
-    
-    img {
-        src: url(https://th.bing.com/th/id/R.0249134a2ec60250c671ebe702d97878?rik=c0Fyzp14eSRoGA&pid=ImgRaw);
-    }
-    
-    #sliderbox {
-        position: relative;
-        width: 3200px;
-        animation-name: slideranimation;
-        animation-duration: 20s;
-    }
-    
-    #sliderbox img {
-        float: left;
-    }
-    
-    @keyframes slideranimation {
-        0% {
-            left: 0px;
-        }
-        20% {
-            left: 0px;
-        }
-        25% {
-            left: -800px;
-        }
-    }
-    #x{
-       ;
-        font-size:20px;
-    }
+html {
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/photos/herbal-medicine-pills-and-mortar-over-bright-background-picture-id491395412?k=6&m=491395412&s=612x612&w=0&h=563k1uq4RXiy2TNZEeven9y1_Fu32PkH8MhbhFOOVRU=");
+    background-position: center;
+    background-size: cover;
+}
 
-    #t{
-     
-        margin-top: 20px;
-        border: none;
-        font-size:30px;
+div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+a {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.show {
+    display: block;
+}
+
+.sub-menu {
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    display: none;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 150px;
+    background: #313443;
+    border-bottom: 1px solid #7b7f92;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 1rem;
+}
+
+h2 {
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+}
+
+#topic-summary {
+    background-color: transparent;
+}
+
+p {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    border: 1px solid brown;
+}
+
+h1 {
+    color: black;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+img {
+    src: url(https://th.bing.com/th/id/R.0249134a2ec60250c671ebe702d97878?rik=c0Fyzp14eSRoGA&pid=ImgRaw);
+}
+
+#sliderbox {
+    position: relative;
+    width: 3200px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+}
+
+#sliderbox img {
+    float: left;
+}
+
+@keyframes slideranimation {
+    0% {
+        left: 0px;
     }
-    #y{
-        border: none;
-        color:rgb(30, 18, 131);
+    20% {
+        left: 0px;
     }
+    25% {
+        left: -800px;
+    }
+}
+
+#x {
+    ;
+    font-size: 20px;
+}
+
+#t {
+    margin-top: 20px;
+    border: none;
+    font-size: 30px;
+    font-weight: bold
+}
+
+#y {
+    border: none;
+    color: rgb(30, 18, 131);
+}
